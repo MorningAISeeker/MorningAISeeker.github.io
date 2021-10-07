@@ -36,11 +36,39 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 
 
 :root {
-  --default-font: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", 'B Yekan Regular', Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --farsi-font-header: 'B Yekan Regular';
+  --farsi-font-text:'Vazir';
+  
+  --default-font: 'Inter',var(--farsi-font-text), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
   --mermaid-font: var(--default-font);
   --reveal-font: var(--default-font);
   --font-monospace: 'Source Code Pro', monospace;
+  
+  
 }
+
+
+
+
+h1 { font-family: 'Inter',var(--farsi-font-header);}
+
+h2 { font-family: 'Inter',var(--farsi-font-header);}
+
+h3 { font-family: 'Inter',var(--farsi-font-header);}
+
+h4 { font-family: 'Inter',var(--farsi-font-header);}
+
+h5 { font-family: 'Inter',var(--farsi-font-header);}
+
+
+/*
+.markdown-preview-view h1 {
+    font-family: inter;
+    font-weight: 700 !important;
+    font-size: 24px;
+    font-weight: normal;
+}
+*/
 
 
 ```
