@@ -7,7 +7,8 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 
 ```css
 
-// an example for editing a font
+/* an example for editing a font */
+
 @font-face {
     /* تعریف نام فونت */
     font-family: 'BZar';
@@ -33,8 +34,7 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 }
 
 
-
-// Main Style
+/*  Main Style  */
 
 
 :root {
@@ -51,7 +51,7 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 
 
 
-// Heading Style
+/*  Heading Style  */
 
 
 h1 { font-family: 'Inter',var(--farsi-font-header);}
@@ -78,7 +78,7 @@ h5 { font-family: 'Inter',var(--farsi-font-header);}
 
 
 
-// Tag Style
+/* Tag Style */
 
 /*
 .markdown-preview-view .tag {
