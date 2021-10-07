@@ -6,6 +6,8 @@ In snippets folder, make a css file like below and add it in the settings.
 Note that 'font-face' definition in the beginning is only for learning how to add a font. It's not needed here. because usually we have these fonts in our system fonts.
 
 ```css
+
+// an example for editing a font
 @font-face {
     /* تعریف نام فونت */
     font-family: 'BZar';
@@ -32,7 +34,7 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 
 
 
-
+// Main Style
 
 
 :root {
@@ -48,6 +50,8 @@ Note that 'font-face' definition in the beginning is only for learning how to ad
 }
 
 
+
+// Heading Style
 
 
 h1 { font-family: 'Inter',var(--farsi-font-header);}
@@ -69,6 +73,47 @@ h5 { font-family: 'Inter',var(--farsi-font-header);}
     font-weight: normal;
 }
 */
+
+
+
+
+
+// Tag Style
+
+/*
+.markdown-preview-view .tag {
+    display: none;
+}
+
+*/
+
+.tag {
+/*changed var to hex color */
+            background-color: #000;
+/* border: none; */
+/* border: solid; */
+/* SY added border width to make it smaller */
+            border-width:1px;
+/* color: #ff0000; */
+/* font-size: 11px; */
+            font-size: 12px;
+/* padding: 1px 8px; */
+            padding: 1px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0px 0px;
+            cursor: pointer;
+/* border-radius: 14px; */
+            border-radius: 8px;
+          }
+          .tag:hover {
+          color: white;
+/* changed color of hover over tag */
+/* background-color: var(--text-accent-hover); */
+/* background-color: #faf2d6; */
+          background-color: #1C1C1C;
+          }
 
 
 ```
